@@ -1,0 +1,7 @@
+@articles.map do |article|
+  {
+    author: article["author"],
+    title: article["title"],
+    url: article["url"]
+  }
+end
